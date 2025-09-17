@@ -1,5 +1,5 @@
 {% set name = "gen3-client" %}
-{% set version = "2025.09" %}
+{% set version = "2025.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/uc-cdis/cdis-data-client/archive/{{ version }}.tar.gz
-  sha256: b9d8d2643e7092c2dc5470f6f3102ffb5b87e1625efaa00a1aa6e70132e1b80f
+  sha256: 1b450b0515ea03945034a05b33d77457abeb13a8548cefbfc668077b4886abfa
 
 build:
   number: 0
