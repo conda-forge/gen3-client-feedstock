@@ -1,5 +1,5 @@
 context:
-  version: "2026.03"
+  version: "2026.04"
 
 package:
   name: gen3-client
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/uc-cdis/cdis-data-client/archive/${{ version }}.tar.gz
-  sha256: c691d45096c64b9f608ac917e79c6691a4c64e20d80e835171b71aee595e531d
+  sha256: 32f220d82b69c37bb14d1bef305bc322a7a0037aab9085991d42905fa404e002
 
 build:
   number: 0
